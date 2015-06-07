@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paypal Link Generator</title>
+	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div class="content">
+		<h1>Paypal Link Generator</h1>
+		<form>
+			<input type="text" class="email" placeholder="Enter your email address">
+			<textarea class="description" placeholder="Description"></textarea>
+			<input type="tel" class="price" placeholder="Price">
+			<input type="text" class="currency" placeholder="Currency e.g EUR, USD">
+			<button class="generateLink">Generate Link</button>
+		</form>
+		<textarea class="result" placeholder="Result" disabled="true"></textarea>
+		<p>by David Cusack. Twitter <a href="http://twitter.com/cusack">@cusack</a> Github <a href="http://github.com/cusackd">cusackd</a></p>
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="assets/js/paypal-link-generator.js"></script>
+</body>
+</html>
